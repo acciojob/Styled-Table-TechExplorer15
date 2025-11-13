@@ -1,1 +1,35 @@
 /* your code */
+ table {
+        width: 75%;
+        margin: 30px auto;
+        border-collapse: collapse;
+        font-family: Arial, sans-serif;
+        background: #ffffff;
+        border: 2px solid #0d6efd;
+        box-shadow: 0 0 10px rgba(0,0,0,0.15);
+    }
+
+    thead th {
+        background-color: #0d6efd;
+        color: white;
+        padding: 12px;
+        font-size: 18px;
+        border: 1px solid #084298;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+    }
+
+    tbody td {
+        padding: 10px;
+        border: 1px solid #cdd8ff;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    tbody tr:nth-child(even) {
+        background-color: #f0f6ff;
+    }
+
+    tbody tr:hover {
+        background-color: #d9e6ff;
+        transition: 0.25s ease;
